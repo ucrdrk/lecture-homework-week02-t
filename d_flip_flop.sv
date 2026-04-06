@@ -5,5 +5,8 @@ module d_flip_flop(
 );
 
 // Put your implementation of a halfadder goes here
+always @(posedge Clk) begin
+    Q <= D;
+end
 
 endmodule
